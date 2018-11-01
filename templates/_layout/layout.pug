@@ -22,7 +22,7 @@ html(dir='ltr', lang=config.SEO.seo_lang, itemscope, itemtype="http://schema.org
 		<!-- ////////////// FAVICON ////////////// -->
 		if process.argv.slice(3).indexOf('--production') > -1
 			include ../_include/_favicon
-		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Krub:200,300,400,500,600,700&amp;subset=vietnamese")
 	body#top-page(class=process.argv.slice(3).indexOf('--production') < 0 ? 'canhcam-develop '+prefix+bodyclass+'-page' : prefix+bodyclass+'-page' || 'default')
 		#fb-root
 		<!-- ////////////// Header ////////////// -->
