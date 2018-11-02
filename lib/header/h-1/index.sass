@@ -6,6 +6,7 @@
 .nth-header-1
 	position: fixed
 	z-index: 999
+	background-color: color-get($mau, trang)
 	.nth1608-megamenu
 		display: none
 	.tools-wrapper
@@ -15,8 +16,11 @@
 		flex-wrap: wrap
 		.search-box
 			+pad(0 .5rem)
-			flex: 0 0 60%
-			max-width: 60%
+			flex: 0 0 85%
+			max-width: 85%
+			+media-breakpoint-up(lg)
+				flex: 0 0 60%
+				max-width: 60%
 			+pos(relative, null)
 			input
 				+no-spacing

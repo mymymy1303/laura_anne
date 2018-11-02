@@ -3,6 +3,9 @@
         "index": {
             "header": [
                 "header/h-1"
+            ],
+            "footer": [
+                "footer/f-1"
             ]
         }
     }
