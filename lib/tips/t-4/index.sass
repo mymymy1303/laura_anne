@@ -1,0 +1,50 @@
+@import ../../_includes
+//////////////////////////////////////
+// CODE
+//////////////////////////////////////
+
+.nth-tips-4
+	padding-bottom: rem(30px)
+	a
+		text-decoration: none
+	figure.tips.main-tips
+		margin-top: 0
+		+media-breakpoint-up(lg)
+			p
+				display: block
+	figure.tips
+		margin-top: rem(30px)
+		background-color: color-get($mau, xam-25)
+		.box-zoom
+			img
+				max-width: 100%
+				height: auto
+		figcaption
+			+pad(rem(20px) rem(20px))
+			h3
+				+fz(1rem)
+				+fw(600)
+				color: color-get($mau, den-1)
+				margin-bottom: .9rem
+			p
+				margin-bottom: 0
+				+fz(.75rem)
+				+fw(600)
+				color: color-get($mau, den-1)
+				+text-clamp(2)
+				+media-breakpoint-up(lg)
+					display: none
+			.tips-viewmore-sub
+				display: flex
+				align-items: center
+				margin-top: .3rem
+				span, i, em
+					+fz(14px)
+					+fw(400)
+					color: color-get($mau, main)
+				span
+					margin-right: 0.5rem
+
+	.tips-first-row
+		figure.tips
+			margin-top: 0
