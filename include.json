@@ -1,12 +1,19 @@
 {
-    "SETUP": {
-        "index": {
-            "header": [
-                "header/h-1"
-            ],
-            "footer": [
-                "footer/f-1"
-            ]
-        }
-    }
+	"SETUP": {
+		"index": {
+			"header": [
+				"header/h-1"
+			],
+			"body": [
+				"banner/b-1",
+				"breadcrumb/b-1",
+				"about/a-1",
+				"about/a-2",
+				"about/a-3"
+			],
+			"footer": [
+				"footer/f-1"
+			]
+		}
+	}
 }
