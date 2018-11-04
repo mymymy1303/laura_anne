@@ -29,7 +29,11 @@
 				"faq/f-1",
 				"faq/f-2",
 				"ordersupport/o-1",
-				"ordersupport/o-2"
+				"ordersupport/o-2",
+				"allocation/a-1",
+				"allocation/a-2",
+				"allocation/a-3",
+				"allocation/a-4"
 			],
 			"footer": [
 				"footer/f-1"

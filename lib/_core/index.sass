@@ -231,3 +231,20 @@ header
 		margin-bottom: 0
 		+media-breakpoint-up(lg)
 			+fz(rem(18px))
+
+select
+	+size(100%, rem(47px))
+	background-color: color-get($mau, xam-25)
+	margin-top: rem(12px)
+	border: 0
+	outline: none
+	+fz(rem(14px))
+	padding-left: rem(18px)
+	color: color-get($mau, den-4)
+	appearance: none
+	background-size: auto !important
+	background-repeat: no-repeat
+	background-position-x: 94% !important
+	&:focus, &:active
+		box-shadow: 0
+	&::-ms-expand
