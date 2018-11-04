@@ -33,7 +33,9 @@
 				"allocation/a-1",
 				"allocation/a-2",
 				"allocation/a-3",
-				"allocation/a-4"
+				"allocation/a-4",
+				"product/p-1",
+				"product/p-2"
 			],
 			"footer": [
 				"footer/f-1"
