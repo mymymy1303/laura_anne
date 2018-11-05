@@ -5,7 +5,7 @@
 
 .nth-header-1
 	position: fixed
-	z-index: 999
+	z-index: 998
 	background-color: color-get($mau, trang)
 	// +box-shadow(0px 4px 19px 0px rgba(0,0,0,0.5))
 	.nth1608-megamenu
@@ -214,6 +214,9 @@
 					margin-right: rem(12px)
 					+transition(.3s ease-in-out)
 					&:hover
+						color: color-get($mau, main)
+						+box-shadow(0px 1px 0px 0px color-get($mau, main))
+					&.header-active
 						color: color-get($mau, main)
 						+box-shadow(0px 1px 0px 0px color-get($mau, main))
 			.tools-wrapper

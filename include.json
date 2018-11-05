@@ -34,7 +34,15 @@
 				"home/h-2",
 				"home/h-3",
 				"home/h-4",
-				"home/h-5"
+				"home/h-5",
+				"ordersupport/o-1",
+				"ordersupport/o-2",
+				"allocation/a-1",
+				"allocation/a-2",
+				"allocation/a-3",
+				"allocation/a-4",
+				"product/p-1",
+				"product/p-2"
 			],
 			"footer": [
 				"footer/f-1"
