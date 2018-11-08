@@ -42,7 +42,14 @@
 				"allocation/a-3",
 				"allocation/a-4",
 				"product/p-1",
-				"product/p-2"
+				"product/p-2",
+				"product-ct/p-1",
+				"product-ct/p-2",
+				"product-ct/p-3",
+				"product-ct/p-4",
+				"product-ct/p-5",
+				"product-ct/p-6",
+				"product-ct/p-7"
 			],
 			"footer": [
 				"footer/f-1"
